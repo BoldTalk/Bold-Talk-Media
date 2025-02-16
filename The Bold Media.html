@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bold Talk Media</title>
+    <style>
+        :root {
+            --primary-color: #D71920; /* Jambojet Red */
+            --accent-color: #FF6B00;
+            --light-bg: #ffffff;
+            --dark-bg: #1E3A8A;
+            --light-text: #1E3A8A;
+            --dark-text: #ffffff;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: var(--dark-bg);
+            color: var(--dark-text);
+        }
+        header {
+            background: var(--primary-color);
+            padding: 20px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: var(--accent-color);
+            font-weight: bold;
+            padding: 10px;
+            background: var(--light-bg);
+            border-radius: 5px;
+        }
+        .hero {
+            background: var(--primary-color);
+            padding: 50px 20px;
+        }
+        .stats {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .stat {
+            margin: 10px;
+            padding: 20px;
+            background: var(--primary-color);
+            color: var(--dark-text);
+            width: 200px;
+            border-radius: 10px;
+        }
+        .parallax {
+            background: url('hero-image.jpg') center/cover fixed;
+            padding: 50px 20px;
+            color: var(--dark-text);
+        }
+        .content {
+            padding: 20px;
+        }
+        footer {
+            background: var(--primary-color);
+            padding: 20px;
+        }
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">HOME</a>
+            <a href="#music">MUSIC</a>
+            <a href="#stories">STORIES</a>
+            <a href="#travels">TRAVELS</a>
+            <a href="#about">ABOUT/CONTACT</a>
+        </nav>
+    </header>
+    
+    <section class="hero" id="home">
+        <h1>THE BOLD TALK MEDIA</h1>
+        <p>Fearless Conversations, Limitless Perspectives.</p>
+        <p><a href="https://www.youtube.com/@theboldtalktv" target="_blank">Visit Our YouTube Channel</a></p>
+    </section>
+    
+    <section class="stats">
+        <div class="stat">
+            <h2>1500</h2>
+            <p>Bold discussions hosted</p>
+        </div>
+        <div class="stat">
+            <h2>2300</h2>
+            <p>Engaged listeners</p>
+        </div>
+        <div class="stat">
+            <h2>7500</h2>
+            <p>Impactful conversations</p>
+        </div>
+        <div class="stat">
+            <h2>9870</h2>
+            <p>Social media interactions</p>
+        </div>
+    </section>
+    
+    <section class="parallax">
+        <p>Challenging perspectives, inspiring change.</p>
+    </section>
+    
+    <section class="content" id="music">
+        <h2>MUSIC</h2>
+        <p>Featuring the latest gospel songs and family-friendly music. Song of the week and underrated artist spotlight.</p>
+    </section>
+    
+    <section class="content" id="stories">
+        <h2>STORIES</h2>
+        <p>Stories of different figures in the Christian community in Kenya, from their beginnings to their current status, including their struggles and triumphs.</p>
+        <aside>
+            <h3>Trending Topics</h3>
+            <ul>
+                <li>Latest Christian leaders' journeys</li>
+                <li>Faith-based transformations</li>
+                <li>Inspiring testimonies</li>
+            </ul>
+        </aside>
+    </section>
+    
+    <section class="content" id="travels">
+        <h2>TRAVELS</h2>
+        <p>Join The Bold Talk Media on amazing journeys across the globe, featuring travel hacks and airline information.</p>
+        <p>Places visited: Burundi, Congo, Uganda, Tanzania.</p>
+        <p>Travel vlogs and photo stories included.</p>
+        <div id="map">(Map Integration Here)</div>
+    </section>
+    
+    <section class="content" id="about">
+        <h2>ABOUT</h2>
+        <p>The Bold Talk Media was founded in 2025 to deliver fearless, thought-provoking content that sparks meaningful dialogue, challenges perspectives, and inspires transformation.</p>
+    </section>
+    
+    <section class="content" id="contact">
+        <h2>CONTACT</h2>
+        <p><strong>Email:</strong> atonyastudios@gmail.com</p>
+        <p><strong>Mobile:</strong> +254726165975</p>
+        <p><strong>Location:</strong> Eldoret, Kenya</p>
+        <p><strong>Follow us on:</strong></p>
+        <p>
+            <a href="https://www.tiktok.com/@theboldtalktv" target="_blank">TikTok</a> | 
+            <a href="https://www.facebook.com/atonyaproductions" target="_blank">Facebook</a> | 
+            <a href="https://twitter.com/ipaddress_1" target="_blank">X (Twitter)</a> | 
+            <a href="https://www.linkedin.com/in/dancan-atonya" target="_blank">LinkedIn</a> | 
+            <a href="https://www.instagram.com/atonya_s" target="_blank">Instagram</a> | 
+            <a href="https://www.youtube.com/@theboldtalktv" target="_blank">YouTube</a>
+        </p>
+    </section>
+    
+    <section class="content" id="payment">
+        <h2>PAYMENT MODES</h2>
+        <p>We accept M-Pesa, PayPal, and Bank Transfers.</p>
+    </section>
+    
+    <footer>
+        <p><strong>Tagline:</strong> Fearless Conversations, Limitless Perspectives.</p>
+        <p>FOR THE LATEST NEWS & UPDATES</p>
+        <button style="background: var(--accent-color); color: var(--light-bg); border: none; padding: 10px 20px; cursor: pointer;">SUBSCRIBE</button>
+        <p>&copy; 2025 - The Bold Talk Media</p>
+    </footer>
+</body>
+</html>
